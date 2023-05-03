@@ -4,6 +4,7 @@
     --box-bg: #221f1f;
     --text-color: #ffffff;
     --nav-height:60px;
+    --space-top :30px;
 
 }
 *{
@@ -133,8 +134,13 @@ img{
     background-color: var(--main-color);
     transition: 0.3s ease-in-out;
 }
+.btn i,
 .btn span{
     z-index: 1;
+}
+
+.btn i{
+    margin-right: 1rem;
 }
 
 .hamburger-menu{
@@ -193,7 +199,7 @@ img{
 
 }
 .hero-slide-item{
-    padding-top: 40%;
+    padding-top: 60%;
     position: relative;
     overflow: hidden;
 
@@ -241,12 +247,36 @@ img{
     line-height: 5rem;
     font-weight: 900;
 }
+.movie-infos{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: calc(var(--space-top)/2);
+}
+.movie-info {
+    display: flex;
+    align-items: center;
+    font-size: -8rem;
+    font-weight: 600;
+}
+.movie-info span{
+    margin-left: 5px;
+}
+.movie-info i{
+    color: var(--main-color)
+}
+.movie-info ~ .movie-info{
+    margin-left: 5px;
+}
 
-
-
-
-
-
+.item-content-desciption{
+    font-size: 1.15rem;
+    margin-top: var(--space-top);
+    line-height: 1.5rem;
+}
+.item-action{
+    margin-top: var(--space-top);
+}
 
 
 
