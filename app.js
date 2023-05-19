@@ -20,7 +20,7 @@ $(document).ready(() =>{
         items: 2,
         dots: false,
         loop: true,
-        autoplay: false,
+        autoplay: true,
         autoplayHoverPause: true,
         responsive:{
             500:{
@@ -46,7 +46,7 @@ $(document).ready(() =>{
         margin:15,
         responsive:{
             500:{
-                items:3
+                items:2
             },
             1280:{
                 items:4
@@ -58,6 +58,6 @@ $(document).ready(() =>{
 
         }
     })
-    
+
 
 })
